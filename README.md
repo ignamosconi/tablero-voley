@@ -1,11 +1,9 @@
-# 🏐 Marcador de Vóley Web
+# 🏐 Tablero de Vóley Web
 
-Un marcador digital interactivo, responsive y libre de dependencias para partidos de vóleibol. Diseñado para funcionar de manera fluida y limpia en cualquier dispositivo (Desktop, Tablets y Celulares en modo Portrait o Landscape).
+Un tablero digital interactivo, responsive y libre de dependencias para partidos de vóley. Diseñado para funcionar de manera fluida y limpia en cualquier dispositivo (Desktop, Tablets y Celulares en modo Portrait o Landscape).
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+El use case principal es conectar una PC con la página abierta a un televisor (tablero), y usar un mouse inalámbrico para sumar puntos. 
+
 
 
 ## ✨ Características Principales
@@ -39,7 +37,7 @@ No requiere instalación, entorno Node.js, dependencias ni proceso de compilaci�
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/marcador-voley.git
+   git clone https://github.com/ignamosconi/tablero-voley.git
    ```
 
 2. Abre el archivo `index.html` en tu navegador web preferido (Chrome, Firefox, Edge, Safari).
@@ -47,13 +45,13 @@ No requiere instalación, entorno Node.js, dependencias ni proceso de compilaci�
 
 ## ⌨️ Tabla de Controles
 
-| Acción                    | PC (Teclado / Mouse)    | Pantalla Táctil (Móvil/Tablet) |
+| Acción | PC (Teclado / Mouse) | Pantalla Táctil (Móvil/Tablet) |
 | ------------------------- | ----------------------- | ------------------------------ |
-| **Sumar Punto Local**     | Clic Izquierdo          | Tap en el lado Local           |
-| **Sumar Punto Visitante** | Clic Derecho            | Tap en el lado Visitante       |
-| **Activar Modo Restar**   | Tecla `Espacio`         | —                              |
-| **Restar Punto**          | Modo Restar + Clic      | Mantener presionado (0.5s)     |
-| **Editar Nombre**         | Doble clic en el nombre | Doble clic en el nombre        |
+| **Sumar Punto Local** | Clic Izquierdo | Tap en el lado Local |
+| **Sumar Punto Visitante** | Clic Derecho | Tap en el lado Visitante |
+| **Activar Modo Restar** | Tecla `Espacio` | — |
+| **Restar Punto** | Modo Restar + Clic | Mantener presionado (0.5s) |
+| **Editar Nombre** | Doble clic en el nombre | Doble clic en el nombre |
 
 > 💡 *Todos los controles se pueden reconfigurar a gusto desde el panel de **⚙ Opciones**.*
 
