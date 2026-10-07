@@ -134,22 +134,31 @@ body {
   display: block;
   flex-shrink: 0;
   z-index: 2;
+  outline: none !important;
 }
-.team-name:hover { border-color: var(--border); }
-.team-name.editing { border-color: var(--muted); outline: none; }
+.team-name:hover { border-color: transparent; }
+.team-name.editing {
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
 
 .team.local   .team-name { color: var(--local); }
 .team.visitor .team-name { color: var(--visitor); }
 
-.team-name input {
-  background: transparent;
-  border: none;
-  outline: none;
+.team-name input,
+.team-name input:focus,
+.team-name input:focus-visible {
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
   color: inherit;
   font: inherit;
   text-align: center;
   width: 100%;
   max-width: 100%;
+  caret-color: var(--text);
 }
 
 .score-number {
@@ -1132,8 +1141,9 @@ function setupNameEdit(team) {
     input.value = current;
     input.maxLength = 15;
     el.appendChild(input);
+    
     input.focus();
-    input.select();
+    input.setSelectionRange(input.value.length, input.value.length);
 
     function commit() {
       const val = input.value.trim().toUpperCase();
