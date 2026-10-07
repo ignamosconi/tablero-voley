@@ -2,7 +2,7 @@
 
 Un tablero digital interactivo, responsive y libre de dependencias para partidos de vóley. Diseñado para funcionar de manera fluida y limpia en cualquier dispositivo (Desktop, Tablets y Celulares en modo Portrait o Landscape).
 
-El use case principal es conectar una PC con la página abierta a un televisor (tablero), y usar un mouse inalámbrico para sumar puntos. 
+El use case principal es conectar una PC con la página abierta a un televisor (tablero), y usar un mouse inalámbrico para sumar puntos (los controles se detallan más abajo, pero pueden cambiarse por cualquiera). 
 
 
 
@@ -28,7 +28,6 @@ El use case principal es conectar una PC con la página abierta a un televisor (
   * Botón directo para ocultar la interfaz del navegador (*Fullscreen API*).
 * **📊 Historial de Sets:** Registro inferior en vivo con los parciales de cada set finalizado.
 
----
 
 ## 🚀 Cómo Ejecutarlo
 
@@ -53,13 +52,8 @@ No requiere instalación, entorno Node.js, dependencias ni proceso de compilaci�
 | **Restar Punto** | Modo Restar + Clic | Mantener presionado (0.5s) |
 | **Editar Nombre** | Doble clic en el nombre | Doble clic en el nombre |
 
-> 💡 *Todos los controles se pueden reconfigurar a gusto desde el panel de **⚙ Opciones**.*
+> *Todos los controles se pueden reconfigurar a gusto desde el panel de **⚙ Opciones**.*
 
-## 🛠️ Tecnologías
-
-- **HTML5:** Estructura semántica single-file.
-- **CSS3:** Layouts dinámicos con Flexbox y CSS Grid, variables (`var(--...)`) para temas y `clamp()` / `calc()` para tipografía adaptativa.
-- **JavaScript (Vanilla ES6+):** Gestión de estado en tiempo real, listeners de eventos globales, API `matchMedia` para orientación de pantalla y timers para gestos táctiles.
 
 ## 📄 Licencia
 
